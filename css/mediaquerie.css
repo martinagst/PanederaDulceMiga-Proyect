@@ -1,0 +1,40 @@
+
+@media (min-width: 768px) {
+    .banner {
+        flex-direction: row; 
+        justify-content: space-between;
+        padding: 20px 40px;
+        text-align: left;
+    }
+
+    .banner__nav {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .banner__logo {
+        max-width: 150px;
+    }
+
+    .banner__nombre {
+        font-size: 2rem;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .banner {
+        padding: 30px 60px;
+    }
+
+    .banner__logo {
+        max-width: 180px;
+    }
+
+    .banner__nombre {
+        font-size: 2.5rem;
+    }
+}
+
+
+

@@ -1,0 +1,40 @@
+/*--------------------------Pie de pagina -------------------------------*/
+
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    color: #740774;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(1500deg, #890265, #ea40bd, #f496db);
+    color: #ede6e6;
+    padding: 10px;
+    gap: 5px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer__nav ul,
+.footer__contact ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #ede6e6;
+}
