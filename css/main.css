@@ -132,7 +132,7 @@ a {
 }
 
 .products__article img {
-    width: 90%;
+    width: 100%;
     max-width: 300px;
     height: auto;
     object-fit: cover;
